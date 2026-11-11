@@ -1,0 +1,37 @@
+Report Generator (Antigravity / Gemini Edition)
+
+This product includes work derived from revfactory/harness-100
+(https://github.com/revfactory/harness-100), directory ko/82-report-generator,
+licensed under the Apache License, Version 2.0.
+Copyright 2026 Robin
+
+Modifications for Google Antigravity (Gemini), 2026-11, by AI-IN:
+
+Modified files (each carries a change notice at the top):
+- .claude/CLAUDE.md -> GEMINI.md (rewritten as the Antigravity workspace guide)
+- .claude/skills/report-generator/skill.md -> SKILL.md
+- .claude/agents/data-collector.md -> agents/data-collector.md
+- .claude/agents/analyst.md -> agents/analyst.md
+- .claude/agents/visualizer.md -> agents/visualizer.md
+- .claude/agents/report-writer.md -> agents/report-writer.md
+- .claude/agents/executive-summarizer.md -> agents/executive-summarizer.md
+- .claude/skills/data-visualization-guide/skill.md -> references/data-visualization-guide.md (moved only)
+- .claude/skills/kpi-dashboard-patterns/skill.md -> references/kpi-dashboard-patterns.md (moved only)
+
+Summary of changes:
+- Folder layout changed from Claude Code (.claude/) to Antigravity (GEMINI.md + SKILL.md).
+- Agent-to-agent messaging (SendMessage) replaced with a hand-off section at the end
+  of each output file; the main agent runs the roles in order, and may split the
+  visualization and writing steps across subagents (invoke_subagent).
+- Each run writes to its own folder: _workspace/<YYYYMMDD>-<topic>/.
+- Web tool names changed to Antigravity's (search_web). Numbers without a source are
+  no longer filled in from general knowledge.
+- Calculations are checked with Python; a calculation log is kept in the analysis.
+- Charts are produced as inline SVG, and a self-contained report.html is generated.
+- Added a quick mode for classes, a confidentiality check on input data, and
+  scripts/open_results.py to copy results to Desktop/Downloads and open the folder.
+
+Files added by AI-IN (not derived from the original):
+- scripts/open_results.py
+- samples/kingo-healthcare/ (fictional practice data)
+- README.md, README.ko.md, NOTICE, .gitignore, input/
