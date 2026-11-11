@@ -21,7 +21,7 @@ Google Antigravity (desktop app) and Python 3.10+ (the agent installs it if miss
 Paste into the Antigravity chat:
 
 ```text
-Clone https://github.com/AI-in-2hour/report-generator, read SKILL.md in that folder first and follow it. Using the samples/kingo-healthcare data, quickly build an executive report on Kingo Healthcare's Vietnam entry strategy.
+Clone https://github.com/AI-in-2hour/report-generator, read SKILL.md in that folder first and follow it. Using the samples/hanip-class data, quickly build an investor review report on Hanip Class's six-month launch plan.
 ```
 
 Or clone the repo and open the folder as an Antigravity workspace; `GEMINI.md` applies automatically.
