@@ -33,5 +33,5 @@ Summary of changes:
 
 Files added by AI-IN (not derived from the original):
 - scripts/open_results.py
-- samples/hanip-class/ (fictional practice data)
+- samples/kingo-healthcare/, samples/hanip-class/ (fictional practice data)
 - README.md, README.ko.md, NOTICE, .gitignore, input/

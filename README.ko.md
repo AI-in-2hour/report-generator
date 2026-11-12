@@ -38,8 +38,10 @@
 안티그라비티 채팅창에 아래 문장을 그대로 붙여넣으세요.
 
 ```text
-https://github.com/AI-in-2hour/report-generator 저장소를 내 컴퓨터에 받고, 그 폴더의 SKILL.md를 먼저 읽고 그 절차대로 진행해줘. samples/hanip-class 데이터로 한입클래스 6개월 런칭 계획 검토 보고서를 투자자 보고용으로 빠르게 만들어줘.
+https://github.com/AI-in-2hour/report-generator 저장소를 내 컴퓨터에 받고, 그 폴더의 SKILL.md를 먼저 읽고 그 절차대로 진행해줘. samples/kingo-healthcare 데이터로 킹고 헬스케어 베트남 진출 채널 전략 보고서를 경영진 보고용으로 빠르게 만들어줘.
 ```
+
+1인 창업 사례(B)로 하려면 마지막 문장을 이렇게 바꾸세요: `samples/hanip-class 데이터로 한입클래스 6개월 런칭 계획 검토 보고서를 투자자 보고용으로 빠르게 만들어줘.`
 
 중간에 `Allow ... ?` 창이 뜨면 **1번(이번만 허용)** 또는 **2·3번(항상 허용)** 을 고르고 Enter를 누르세요. **4번(No)은 누르지 마세요.**
 
@@ -52,6 +54,10 @@ git clone https://github.com/AI-in-2hour/report-generator.git
 안티그라비티에서 `report-generator` 폴더를 열면 `GEMINI.md`가 자동으로 적용됩니다. 그다음 채팅창에 요청만 쓰면 됩니다.
 
 ## 요청 예시
+
+```text
+samples/kingo-healthcare 데이터로 킹고 헬스케어 베트남 진출 채널 전략 보고서를 경영진 보고용으로 빠르게 만들어줘
+```
 
 ```text
 samples/hanip-class 데이터로 한입클래스 6개월 런칭 계획 검토 보고서를 투자자 보고용으로 빠르게 만들어줘
@@ -82,7 +88,7 @@ report-generator/
 ├── SKILL.md               전체 절차 (오케스트레이터)
 ├── agents/                역할 5개의 지침
 ├── references/            차트 선택 기준, KPI 분석 기준
-├── samples/               실습용 가상 데이터 (1인 창업 '한입클래스')
+├── samples/               실습용 가상 데이터 (A. 회사 실무 '킹고 헬스케어', B. 1인 창업 '한입클래스')
 ├── input/                 내 데이터를 넣는 곳
 ├── scripts/open_results.py 결과를 바탕화면·다운로드로 복사하고 폴더 열기
 └── _workspace/            실행할 때마다 만들어지는 작업 폴더
